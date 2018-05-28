@@ -20,6 +20,11 @@ abstract class Controller
     private $templateExt = '.php';
 
     /**
+     * @return mixed
+     */
+    public abstract function index();
+
+    /**
      * @param $template
      * @param array $params
      * @return string
